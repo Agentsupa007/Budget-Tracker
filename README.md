@@ -1,0 +1,1 @@
+The Budget Tracker is a simple and intuitive mobile application built using Flutter and Firebase. It allows users to efficiently track their income and expenses, categorize their spending, and view a basic financial summary.
