@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/add_expense/views/add_expense.dart';
 import 'package:flutter_application_1/screens/home/views/main_screen.dart';
 import 'package:flutter_application_1/screens/stats/stats.dart';
 
@@ -57,7 +58,14 @@ class HomeScreen extends StatefulWidget {
           ),
           floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
           floatingActionButton: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context, 
+                MaterialPageRoute(
+                  builder: (context) => const AddExpense(),
+                ),
+              );
+            },
             shape: const CircleBorder(),
             child: Container(
               width: 60,

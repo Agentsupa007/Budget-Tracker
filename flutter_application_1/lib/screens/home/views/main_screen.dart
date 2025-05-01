@@ -50,7 +50,7 @@ class MainScreen extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          'Jhon Doe',
+                          'Ronak Patwa',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
